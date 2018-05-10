@@ -30,7 +30,7 @@ pip-log.txt
 .coverage
 .tox
 nosetests.xml
-.pytest-cache
+.pytest_cache
 coverage.xml
 
 # Translations
