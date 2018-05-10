@@ -7,7 +7,7 @@ with open('carmen/__init__.py') as fid:
             break
 
 setuptools.setup(
-    name="carmen",
+    name="carmenproxy",
     version=VERSION,
     url="https://github.com/mark-hoffmann/fastteradata",
 

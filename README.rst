@@ -8,6 +8,17 @@ Carmen
    :alt: alternate text
    :align: right
 
+.. image:: https://img.shields.io/pypi/v/carmen.svg
+   :target: https://pypi.python.org/pypi/carmen
+   :alt: Latest PyPI version
+
+.. image:: https://travis-ci.org/mark-hoffmann/carmen.png
+  :target: https://travis-ci.org/mark-hoffmann/carmen
+  :alt: Latest Travis CI build status
+
+.. image:: https://codecov.io/gh/mark-hoffmann/carmen/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/mark-hoffmann/carmen
+  :alt: Coverage
 
 Carmen is a tool for proxying programmatic HTTP requests. It finds a list of free proxy servers and routes your request traffic randomly, making everyone ask the question "Where in the world [is Carmen SanDiego] are my network requests coming from?"
 
@@ -22,7 +33,7 @@ Carmen can easily be downloaded straight from github via the following:
 
 .. code-block:: python
 
-  pip install carmen
+  pip install carmenproxy
 
 
 Usage
@@ -46,7 +57,7 @@ To use Carmen, simply instantiate the ProxyRotator object, get the available pro
 
 Requirements
 ^^^^^^^^^^^^
-- `bs4 <>`_
+- bs4
 - `fake-useragent <https://github.com/hellysmile/fake-useragent>`_
 
 
@@ -54,14 +65,14 @@ Requirements
 Compatibility
 -------------
 
-carmen currently supports Python 3.6
+carmenproxy currently supports Python 3.6
 
 Licence
 -------
 
-`MIT <https://github.com/mark-hoffmann/carmen/blob/master/LICENSE.txt>`_
+`MIT <https://github.com/mark-hoffmann/carmenproxy/blob/master/LICENSE.txt>`_
 
 Authors
 -------
 
-`carmen` was written by `Mark Hoffmann <markkhoffmann@gmail.com>`_.
+`carmenproxy` was written by `Mark Hoffmann <markkhoffmann@gmail.com>`_.
