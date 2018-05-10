@@ -29,7 +29,7 @@ This can be useful for webcrawlers where sites block bots after only a few reque
 Installation
 ------------
 
-Carmen can easily be downloaded straight from github via the following:
+Carmen can easily be downloaded via PyPI with the following:
 
 .. code-block:: python
 
